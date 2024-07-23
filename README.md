@@ -141,12 +141,12 @@ To set up the project, follow these steps:<br><br>
   ```
 <br>
 
-3. Run the Turtlebot3 environment based on the Gazebo simulation in the same terminal:
+3. In a different terminal, run the following code to practice the Navigation Stack for the Turtlebot3 model:
   ```shell
-  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  export TURTLEBOT3_MODEL=burger
   ```
-  or
   ```shell
-  roslaunch turtlebot3_gazebo turtlebot3_house.launch
+  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/unicon3/map.yaml
   ```
+  /home/unicon3/map.yaml --> Modify that path to the path where your map.yaml file is located.
 <br>
