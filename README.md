@@ -261,4 +261,5 @@ Once the modifications are complete, save and close the file using the 'ctrl+s' 
   ```shell
  python drive_and_turn_and_stop.py
   ```
+![Practice example video](C:/Users/hsym3/Desktop/Github/Cheongju University LiDAR/turtlebot simulation homework.mp4)
 <br><br>
