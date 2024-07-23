@@ -28,31 +28,55 @@ To set up the project, follow these steps:
   ```shell
   cd ~/catkin_ws/src
   ```
+<br>
 
 3. Initialize and set up the build environment for the catkin workspace:
   ```shell
   catkin_init_workspace
   ```
+<br>
 
 4. Build the catkin workspace:
   ```shell
   cd ~/catkin_ws && catkin_make
   ```
+<br>
 
 5. Add the ROS package path to the environment variables:
   ```shell
   source devel/setup.bash
   ```
+<br>
 
 6. Change directory to the src folder within the catkin workspace:
   ```shell
   cd ~/catkin_ws/src
   ```
+<br>
 
-7. Install the Turtlebot3-related packages.
+7. Install the Turtlebot3-related packages:
   ```shell
   git clone –b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
   ```
   ```shell
   git clone –b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   ```
+<br>
+
+8. Install the Turtlebot3-related packages and then build the catkin workspace:
+  ```shell
+  cd ~/catkin_ws && catkin_make
+  ```
+<br>
+
+9. Define the Turtlebot3 model before running the Gazebo simulation:
+  ```shell
+  export TURTLEBOT3_MODEL=burger
+  ```
+<br>
+
+10. Run the Turtlebot3 environment based on the Gazebo simulation:
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  ```
+<br>
