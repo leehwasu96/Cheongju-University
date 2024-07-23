@@ -103,3 +103,12 @@ To set up the project, follow these steps:
   rosrun map_server map_saver -f ~/map
   ```
 <br>
+
+13-1. If the map_server package is not available, install it using the following command:
+  ```shell
+  sudo apt update
+  ```
+  ```shell
+  sudo apt install ros-noetic-map-server
+  ```
+<br>
