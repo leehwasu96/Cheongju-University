@@ -12,7 +12,7 @@
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Homework.pdf is the LiDAR lecture homeworks."<br><br>
 
-# SLAM & Navigation practice command
+# SLAM(Simultaneous Localization And Mapping) practice command
 
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
@@ -80,6 +80,10 @@ To set up the project, follow these steps:
   ```shell
   roslaunch turtlebot3_gazebo turtlebot3_world.launch
   ```
+  or
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_house.launch
+  ```
 <br>
 
 11. Run the code to control the Turtlebot3 model in a terminal different from the one where the Turtlebot3 world is running:
@@ -111,5 +115,38 @@ To set up the project, follow these steps:
   ```
   ```shell
   sudo apt install ros-noetic-map-server
+  ```
+<br>
+
+# Navigation Stack practice command
+
+Please note that this practice was conducted in an<br><br> 
+Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
+
+To set up the project, follow these steps:
+
+1. Define the Turtlebot3 model before running the Gazebo simulation:
+  ```shell
+  export TURTLEBOT3_MODEL=burger
+  ```
+<br>
+
+2. Run the Turtlebot3 environment based on the Gazebo simulation in the same terminal:
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  ```
+  or
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_house.launch
+  ```
+<br>
+
+3. Run the Turtlebot3 environment based on the Gazebo simulation in the same terminal:
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  ```
+  or
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_house.launch
   ```
 <br>
