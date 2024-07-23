@@ -150,3 +150,5 @@ To set up the project, follow these steps:<br><br>
   ```
   In the above command, modify that path to the path where your map.yaml file is located.<br>
   /home/unicon3/map.yaml --> /home/{your map.yaml path}
+
+4. In Rviz (ROS Visualization), set the initial position of the Turtlebot3 Burger model using the "2D Pose Estimate" button, then click "2D Nav Goal" to set the target position for the Turtlebot3 Burger model.
