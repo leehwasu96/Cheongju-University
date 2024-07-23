@@ -263,7 +263,6 @@ Once the modifications are complete, save and close the file using the 'ctrl+s' 
   ```
 <br><br>
 
-https://github.com/user-attachments/assets/c19a5274-1a80-4c2f-9fda-f12a1cb3adfd
-
-
+Turtlebot3 Control example video
+https://github.com/user-attachments/assets/a41602c4-c304-470c-b5c7-26afd393852d
 
