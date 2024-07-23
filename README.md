@@ -1,4 +1,3 @@
----
 # Cheongju University LiDAR Lecture Notes<br>
   Author : Hwasu Lee<br><br>
   Affiliation : UNICON LAB (Incheon National University, South Korea)<br><br>
@@ -7,7 +6,7 @@
 ---
 #  Course Duration
   Date : 24.07.02 ~ 24.07.04<br><br>
-  
+---
 # LiDAR Lecture Note Description
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
