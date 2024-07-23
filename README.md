@@ -14,6 +14,8 @@
 
 # SLAM & Navigation practice command
 
+Please note that this practice was conducted in an Ubuntu 20.04 LTS and ROS 1 Noetic environment.
+
 To set up the project, follow these steps:
 
 1. Create catkin workspace and src folder:
@@ -39,4 +41,17 @@ To set up the project, follow these steps:
 5. Add the ROS package path to the environment variables:
   ```shell
   source devel/setup.bash
+  ```
+
+6. Change directory to the src folder within the catkin workspace:
+  ```shell
+  cd ~/catkin_ws/src
+  ```
+
+7. Install the Turtlebot3-related packages.
+  ```shell
+  git clone –b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+  ```
+  ```shell
+  git clone –b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   ```
