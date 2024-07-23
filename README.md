@@ -20,3 +20,23 @@ To set up the project, follow these steps:
   ```shell
   mkdir -p ~/catkin_ws/src
   ```
+
+2. Change directory to the src folder within the catkin workspace:
+  ```shell
+  cd ~/catkin_ws/src
+  ```
+
+3. Initialize and set up the build environment for the catkin workspace:
+  ```shell
+  catkin_init_workspace
+  ```
+
+4. Build the catkin workspace:
+  ```shell
+  cd ~/catkin_ws && catkin_make
+  ```
+
+5. Add the ROS package path to the environment variables:
+  ```shell
+  source devel/setup.bash
+  ```
