@@ -3,7 +3,7 @@
 ###  LiDAR  : 2024.07.02 ~ 04<br>
 ###  Camera : 2024.07.15 ~ 17
 ---
-#### LiDAR Lecture Note
+### LiDAR Lecture Note
   1. ~~
   2. ~~
   3. ~~
