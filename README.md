@@ -1,8 +1,8 @@
 # Cheongju University LiDAR Lecture Notes<br>
-  Author : Hwasu Lee<br>
-  Affiliation : UNICON LAB (Incheon National University, South Korea)<br>
-  Position : M.A. student<br>
-  E-mail : leehwasu96@naver.com (or leehwasu9696@inu.ac.kr)<br>
+  Author : Hwasu Lee<br><br>
+  Affiliation : UNICON LAB (Incheon National University, South Korea)<br><br>
+  Position : M.A. student<br><br>
+  E-mail : leehwasu96@naver.com (or leehwasu9696@inu.ac.kr)<br><br>
 
 ##  Course Duration
   24.07.02 ~ 24.07.04<br><br>
