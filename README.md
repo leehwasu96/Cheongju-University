@@ -15,7 +15,7 @@
 # SLAM(Simultaneous Localization And Mapping) practice command
 
 Please note that this practice was conducted in an<br><br> 
-Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
+Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:<br><br>
 
@@ -121,7 +121,7 @@ To set up the project, follow these steps:<br><br>
 # Navigation Stack practice command
 
 Please note that this practice was conducted in an<br><br> 
-Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
+Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:<br><br>
 
