@@ -148,5 +148,4 @@ To set up the project, follow these steps:<br><br>
   ```shell
   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/unicon3/map.yaml
   ```
-  /home/unicon3/map.yaml --> Modify that path to the path where your map.yaml file is located.
-<br>
+  /home/unicon3/map.yaml --> In the above command, modify that path to the path where your map.yaml file is located.
