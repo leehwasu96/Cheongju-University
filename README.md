@@ -163,8 +163,17 @@ Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:<br><br>
 
-1. ~:
+1. Create the turtlebot3_control package and the scripts folder:
   ```shell
-  export TURTLEBOT3_MODEL=burger
+  cd ~/catkin_ws/src
+  ```
+  ```shell
+  catkin_create_pkg turtlebot3_control rospy std_msgs sensor_msgs geometry_msgs
+  ```
+  ```shell
+  cd ~/catkin_ws/src/turtlebot3_control
+  ```
+  ```shell
+  mkdir scripts
   ```
 <br><br>
