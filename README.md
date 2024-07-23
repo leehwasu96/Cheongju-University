@@ -20,6 +20,6 @@
 To set up the project, follow these steps:
 
 1. Create catkin workspace and src folder:
-   ```shell
-   mkdir -p ~/catkin_ws/src
-   ```
+```shell
+mkdir -p ~/catkin_ws/src
+
