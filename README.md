@@ -29,31 +29,31 @@ To set up the project, follow these steps:<br><br>
   ```shell
   cd ~/catkin_ws/src
   ```
-<br>
+<br><br>
 
 3. Initialize and set up the build environment for the catkin workspace:
   ```shell
   catkin_init_workspace
   ```
-<br>
+<br><br>
 
 4. Build the catkin workspace:
   ```shell
   cd ~/catkin_ws && catkin_make
   ```
-<br>
+<br><br>
 
 5. Add the ROS package path to the environment variables:
   ```shell
   source devel/setup.bash
   ```
-<br>
+<br><br>
 
 6. Change directory to the src folder within the catkin workspace:
   ```shell
   cd ~/catkin_ws/src
   ```
-<br>
+<br><br>
 
 7. Install the Turtlebot3-related packages:
   ```shell
@@ -62,19 +62,19 @@ To set up the project, follow these steps:<br><br>
   ```shell
   git clone –b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   ```
-<br>
+<br><br>
 
 8. Install the Turtlebot3-related packages and then build the catkin workspace:
   ```shell
   cd ~/catkin_ws && catkin_make
   ```
-<br>
+<br><br>
 
 9. Define the Turtlebot3 model before running the Gazebo simulation:
   ```shell
   export TURTLEBOT3_MODEL=burger
   ```
-<br>
+<br><br>
 
 10. Run the Turtlebot3 environment based on the Gazebo simulation:
   ```shell
@@ -84,7 +84,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   roslaunch turtlebot3_gazebo turtlebot3_house.launch
   ```
-<br>
+<br><br>
 
 11. Run the code to control the Turtlebot3 model in a terminal different from the one where the Turtlebot3 world is running:
   ```shell
@@ -93,6 +93,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
   ```
+<br><br>
 
 12. Run the code to perform SLAM(Gmapping) in a terminal different from the ones running the Turtlebot3 world and Turtlebot3 teleop_key:
   ```shell
@@ -101,13 +102,13 @@ To set up the project, follow these steps:<br><br>
   ```shell
   roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
   ```
-<br>
+<br><br>
 
 13. Save the Occupancy Grid Map created based on SLAM(Gmapping) using the map_server:
   ```shell
   rosrun map_server map_saver -f ~/map
   ```
-<br>
+<br><br>
 
 13-1. If the map_server package is not available, install it using the following command:
   ```shell
@@ -116,7 +117,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   sudo apt install ros-noetic-map-server
   ```
-<br>
+<br><br>
 
 # ROS Navigation Stack practice command
 
@@ -129,7 +130,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   export TURTLEBOT3_MODEL=burger
   ```
-<br>
+<br><br>
 
 2. Run the Turtlebot3 environment based on the Gazebo simulation in the same terminal:
   ```shell
@@ -139,7 +140,7 @@ To set up the project, follow these steps:<br><br>
   ```shell
   roslaunch turtlebot3_gazebo turtlebot3_house.launch
   ```
-<br>
+<br><br>
 
 3. In a different terminal, run the following code to practice the Navigation Stack for the Turtlebot3 model:
   ```shell
@@ -150,5 +151,7 @@ To set up the project, follow these steps:<br><br>
   ```
   In the above command, modify that path to the path where your map.yaml file is located.<br>
   /home/unicon3/map.yaml --> /home/{your map.yaml path}
+<br><br>
 
 4. In Rviz (ROS Visualization), set the initial position of the Turtlebot3 Burger model using the "2D Pose Estimate" button, then click "2D Nav Goal" to set the target position for the Turtlebot3 Burger model.
+<br><br>
