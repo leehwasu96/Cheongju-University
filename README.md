@@ -14,8 +14,8 @@
 
 # SLAM & Navigation practice command
 
-Please note that this practice was conducted in an<br> 
-Ubuntu 20.04 LTS and ROS 1 Noetic environment.
+Please note that this practice was conducted in an<br><br> 
+Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
 
 To set up the project, follow these steps:
 
