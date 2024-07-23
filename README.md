@@ -3,7 +3,7 @@
 ## LiDAR Lecture Note
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
-  "LiDAR Lecture Homework.pdf is the LiDAR lecture homeworks."
+  "LiDAR Lecture Homework.pdf is the LiDAR lecture homeworks."<br><br>
 
 ## SLAM & Navigation practice command
 
