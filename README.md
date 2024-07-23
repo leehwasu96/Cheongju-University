@@ -22,6 +22,7 @@ To set up the project, follow these steps:
   ```shell
   mkdir -p ~/catkin_ws/src
   ```
+<br>
 
 2. Change directory to the src folder within the catkin workspace:
   ```shell
