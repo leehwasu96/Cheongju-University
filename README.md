@@ -17,7 +17,7 @@
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
 
-To set up the project, follow these steps:
+To set up the project, follow these steps:<br><br>
 
 1. Create catkin workspace and src folder:
   ```shell
@@ -123,7 +123,7 @@ To set up the project, follow these steps:
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS 1 Noetic environment.<br><br>
 
-To set up the project, follow these steps:
+To set up the project, follow these steps:<br><br>
 
 1. Define the Turtlebot3 model before running the Gazebo simulation:
   ```shell
