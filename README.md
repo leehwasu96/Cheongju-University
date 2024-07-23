@@ -1,6 +1,6 @@
 # Cheongju-University<br>
 ## Cheongju University LiDAR Lecture Notes<br>
-###  LiDAR  : 2024.07.02 ~ 04<br>
+###  Course Duration : 24.07.02 ~ 24.07.04<br>
 ---
 ### LiDAR Lecture Note
   1. ~~
