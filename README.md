@@ -5,7 +5,7 @@
   E-mail : leehwasu96@naver.com (or leehwasu9696@inu.ac.kr)<br><br>
 
 #  Course Duration
-  24.07.02 ~ 24.07.04<br><br>
+  Date : 24.07.02 ~ 24.07.04<br><br>
   
 # LiDAR Lecture Note Description
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
@@ -22,3 +22,5 @@ To set up the project, follow these steps:
 1. Create catkin workspace and src folder:
    ```shell
    mkdir -p ~/catkin_ws/src
+   '''
+'''
