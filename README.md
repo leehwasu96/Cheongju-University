@@ -118,7 +118,7 @@ To set up the project, follow these steps:<br><br>
   ```
 <br>
 
-# Navigation Stack practice command
+# ROS Navigation Stack practice command
 
 Please note that this practice was conducted in an<br><br> 
 Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
