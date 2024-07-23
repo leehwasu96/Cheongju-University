@@ -3,10 +3,10 @@
   Affiliation : UNICON LAB (Incheon National University, South Korea)<br><br>
   Position : M.A. student<br><br>
   E-mail : leehwasu96@naver.com (or leehwasu9696@inu.ac.kr)<br><br>
----
+
 #  Course Duration
   Date : 24.07.02 ~ 24.07.04<br><br>
----
+
 # LiDAR Lecture Note Description
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
