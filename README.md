@@ -181,7 +181,7 @@ To set up the project, follow these steps:<br><br>
   ```
 <br><br>
 
-2. To control the Turtlebot3 model, fetch the "drive_and_stop.py" and "drive_and_turn_and_stop.py" file from the Homework directory in the Github repository and place it in the scripts folder:
+2. To control the Turtlebot3 model, fetch the "drive_and_stop.py" and "drive_and_turn_and_stop.py" file from the Homework directory in the Github repository and place it in the scripts folder.
 <br><br>
 
 3. Grant execute permissions to the Python file fetched from Github:
@@ -190,8 +190,59 @@ To set up the project, follow these steps:<br><br>
   ```
 <br><br>
 
-4. :
+4. Change directory to the "worlds" folder within the "turtlebot3_gazebo" package:
   ```shell
-  chmod +x drive_and_stop.py
+  roscd turtlebot3_gazebo/worlds
+  ```
+<br><br>
+
+5. Fetch the "custom_world.world" file from the Homework folder in the Github repository and save it to the above path.
+<br><br>
+
+6. Change directory to the "launch" folder within the "turtlebot3_gazebo" package:
+  ```shell
+  roscd turtlebot3_gazebo/launch
+  ```
+<br><br>
+
+7. Copy an existing launch file to run the "custom_world.world" file:
+  ```shell
+  cp turtlebot3_empty_world.launch turtlebot3_custom_world.launch
+  ```
+<br><br>
+
+8. Modify the copied "turtlebot3_custom_world.launch" file.:
+  ```shell
+  gedit turtlebot3_custom_world.launch
+  ```
+Modify from "empty_world.world" to "custom_world.world".<br>
+Once the modifications are complete, save and close the file using the 'ctrl+s' shortcut.
+<br><br>
+
+9. :
+  ```shell
+  cd ~/catkin_ws && catkin_make
+  ```
+  ```shell
+  source devel/setup.bash && source /opt/ros/noetic/setup.bash
+  ```
+  ```shell
+  export TURTLEBOT3_MODEL=burger
+  ```
+  ```shell
+  roslaunch turtlebot3_gazebo turtlebot3_custom_world.launch
+  ```
+<br><br>
+
+10. :
+  ```shell
+  rosrun turtlebot3_control drive_and_stop.py
+  ```
+  or
+  ```shell
+  cd ~/catkin_ws/src/turtlebot3_control
+  ```
+  ```shell
+ python drive_and_stop.py
   ```
 <br><br>
