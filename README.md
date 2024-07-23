@@ -4,14 +4,15 @@
   Position : M.A. student<br><br>
   E-mail : leehwasu96@naver.com (or leehwasu9696@inu.ac.kr)<br><br>
 
-##  Course Duration
+#  Course Duration
   24.07.02 ~ 24.07.04<br><br>
-## LiDAR Lecture Note
+  
+# LiDAR Lecture Note
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Homework.pdf is the LiDAR lecture homeworks."<br><br>
 
-## SLAM & Navigation practice command
+# SLAM & Navigation practice command
 
 ```markdown
 ## To clone this repository, use the following command:
