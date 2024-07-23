@@ -1,5 +1,7 @@
 # Cheongju University LiDAR Lecture Notes<br>
-##  Course Duration : 24.07.02 ~ 24.07.04<br>
+  Lecturer : Master course, Hwasu Lee, Incheon National University<br><br>
+##  Course Duration
+  24.07.02 ~ 24.07.04<br><br>
 ## LiDAR Lecture Note
   "LiDAR Lecture Notes (1).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
