@@ -211,7 +211,7 @@ To set up the project, follow these steps:<br><br>
   ```
 <br><br>
 
-8. Modify the copied "turtlebot3_custom_world.launch" file.:
+8. Modify the copied "turtlebot3_custom_world.launch" file:
   ```shell
   gedit turtlebot3_custom_world.launch
   ```
@@ -219,13 +219,16 @@ Modify from "empty_world.world" to "custom_world.world".<br>
 Once the modifications are complete, save and close the file using the 'ctrl+s' shortcut.
 <br><br>
 
-9. :
+9. Build the catkin workspace and set the ROS environment variables:
   ```shell
   cd ~/catkin_ws && catkin_make
   ```
   ```shell
   source devel/setup.bash && source /opt/ros/noetic/setup.bash
   ```
+<br><br>
+
+10. In the first terminal, define the Turtlebot3 model and run the Gazebo simulation environment:
   ```shell
   export TURTLEBOT3_MODEL=burger
   ```
@@ -234,15 +237,28 @@ Once the modifications are complete, save and close the file using the 'ctrl+s' 
   ```
 <br><br>
 
-10. :
+11. Run the First control practice code based on the Turtlebot3 Burger model and LiDAR sensor data:
   ```shell
   rosrun turtlebot3_control drive_and_stop.py
   ```
   or
   ```shell
-  cd ~/catkin_ws/src/turtlebot3_control
+  cd ~/catkin_ws/src/turtlebot3_control/scripts
   ```
   ```shell
  python drive_and_stop.py
+  ```
+<br><br>
+
+12. Run the Second control practice code based on the Turtlebot3 Burger model and LiDAR sensor data:
+  ```shell
+  rosrun turtlebot3_control drive_and_turn_and_stop.py
+  ```
+  or
+  ```shell
+  cd ~/catkin_ws/src/turtlebot3_control/scripts
+  ```
+  ```shell
+ python drive_and_turn_and_stop.py
   ```
 <br><br>
