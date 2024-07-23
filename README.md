@@ -176,4 +176,21 @@ To set up the project, follow these steps:<br><br>
   ```shell
   mkdir scripts
   ```
+  ```shell
+  cd scripts
+  ```
+<br><br>
+
+2. To control the Turtlebot3 model, fetch the "drive_and_stop.py" and "drive_and_turn_and_stop.py" file from the Homework directory in the Github repository and place it in the scripts folder:
+
+3. Grant execute permissions to the Python file fetched from Github:
+  ```shell
+  chmod +x drive_and_stop.py drive_and_turn_and_stop.py 
+  ```
+<br><br>
+
+4. :
+  ```shell
+  chmod +x drive_and_stop.py
+  ```
 <br><br>
