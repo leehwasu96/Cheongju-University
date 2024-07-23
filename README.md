@@ -23,4 +23,3 @@ To set up the project, follow these steps:
    ```shell
    mkdir -p ~/catkin_ws/src
    ```
-```
