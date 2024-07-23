@@ -80,3 +80,26 @@ To set up the project, follow these steps:
   roslaunch turtlebot3_gazebo turtlebot3_world.launch
   ```
 <br>
+
+11. Run the code to control the Turtlebot3 model in a terminal different from the one where the Turtlebot3 world is running:
+  ```shell
+  export TURTLEBOT3_MODEL=burger
+  ```
+  ```shell
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+  ```
+
+12. Run the code to perform SLAM(Gmapping) in a terminal different from the ones running the Turtlebot3 world and Turtlebot3 teleop_key:
+  ```shell
+  export TURTLEBOT3_MODEL=burger
+  ```
+  ```shell
+  roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+  ```
+<br>
+
+13. Save the Occupancy Grid Map created based on SLAM(Gmapping) using the map_server:
+  ```shell
+  rosrun map_server map_saver -f ~/map
+  ```
+<br>
