@@ -7,10 +7,10 @@ from nav_msgs.msg import Odometry
 from tf.transformations import euler_from_quaternion
 import math
 
-class StopAndParkingNode:
+class DriveAndParkingNode:
     def __init__(self):
          # 현재 작성중인 노드의 이름 정의
-        rospy.init_node('stop_and_parking_node', anonymous=True)
+        rospy.init_node('drive_and_parking_node', anonymous=True)
         
         # Publisher(속도)와 Subscriber(LiDAR 데이터, Odometry 데이터) 정의
         self.cmd_vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
@@ -147,7 +147,7 @@ class StopAndParkingNode:
         rospy.spin()
 
 if __name__ == '__main__':
-    node = StopAndParkingNode()
+    node = DriveAndParkingNode()
     # 데이터를 안전하게 받아올 수 있게 잠시 코드를 정지
     rospy.sleep(1)
     node.run()
