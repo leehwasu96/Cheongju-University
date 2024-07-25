@@ -120,7 +120,7 @@
   ```
 <br><br>
 
-# ROS Navigation Stack practice command
+# ROS Navigation Stack practice
 
 <br>
 
