@@ -154,7 +154,7 @@ To set up the project, follow these steps:<br><br>
 <br><br><br>
 
 4. In Rviz (ROS Visualization), set the initial position of the Turtlebot3 Burger model using the "2D Pose Estimate" button, then click "2D Nav Goal" to set the target position for the Turtlebot3 Burger model.
-<br><br>
+<br><br><br>
 
 # Homework : <br>Control the Turtlebot3 in the ROS Gazebo simulation environment
 
