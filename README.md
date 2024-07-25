@@ -158,10 +158,10 @@ To set up the project, follow these steps:<br><br>
 
 # Homework : <br>Control the Turtlebot3 in the ROS Gazebo simulation environment
 
-Please note that this practice was conducted in an<br><br> 
-Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br>
+Please note that this practice was conducted in an<br><br><br>
+Ubuntu 20.04 LTS and ROS(Robot Operating System) 1 Noetic environment.<br><br><br>
 
-To set up the project, follow these steps:<br><br>
+To set up the project, follow these steps:<br><br><br>
 
 1. Create the turtlebot3_control package and the scripts folder:
   ```shell
