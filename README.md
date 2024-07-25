@@ -217,7 +217,7 @@ To set up the project, follow these steps:<br><br><br>
   ```
 Modify from "empty_world.world" to "custom_world.world".<br>
 Once the modifications are complete, save and close the file using the 'ctrl+s' shortcut.
-<br><br>
+<br><br><br>
 
 9. Build the catkin workspace and set the ROS environment variables:
   ```shell
