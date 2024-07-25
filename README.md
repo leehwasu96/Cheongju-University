@@ -12,7 +12,7 @@
   "LiDAR Lecture Notes (2).pdf is the LiDAR lecture notes."<br><br>
   "LiDAR Lecture Homework.pdf is the LiDAR lecture homeworks."<br><br>
 
-# SLAM(Simultaneous Localization<br>And Mapping) practice command
+# SLAM(Simultaneous Localization And Mapping) <br> practice command
 
 <br>
 
